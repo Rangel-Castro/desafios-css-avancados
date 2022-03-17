@@ -1,0 +1,59 @@
+html {
+  color: #fff;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 62.5%;
+}
+
+.colecao {
+  margin-top: 129px;
+}
+
+.colecao ul {
+  display: flex;
+}
+
+.colecao li {
+  height: 431px;
+  margin: auto 10px 0px 10px;
+  width: 335px;
+}
+
+.Rome {
+  background: url("../images/Rome.jpg") no-repeat center; 
+  background-size: cover;
+  position: relative;
+}
+
+.Boat {
+  background: url("../images/boat_at_sea.jpg") no-repeat center;  
+  background-size: cover;
+  position: relative;
+}
+
+.Sand {
+  background: url("../images/sand_and_sea.jpg") no-repeat center; 
+  background-size: cover;
+  position: relative;
+}
+
+.Starry {
+  background: url("../images/starry_night.jpg") no-repeat center; 
+  background-size: cover;
+  position: relative;
+}
+
+.info .nome {
+  font-size: 3rem;
+  font-weight: 700;
+  left: 26px; 
+  position: absolute;  
+  top: 328px; 
+}
+
+.info .autor {
+  font-size: 1.7rem;
+  font-weight: 300;
+  left: 28px;
+  position: absolute;
+  top: 368px;
+}

@@ -1,0 +1,78 @@
+html { 
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background-color: #F7F7F7;
+  display: grid;
+  grid: 
+  "video propaganda" 106px
+  "video recomendacoes" 271px;
+  grid-column-gap: 20px;
+  height: 377px;
+  margin: 22px;
+  width: 676px;
+}
+
+.video {
+  grid-area: video;
+}
+
+.video img {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.video h2 {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.video p {
+  margin-left: 30px;
+}
+
+.video .descricao {
+  margin-left: 30px;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.propaganda { 
+  grid-area: propaganda;
+}
+
+.propaganda img {
+  margin: 30px 30px 20px auto;
+}
+
+.recomendacoes {
+  grid-area: recomendacoes;
+}
+
+.recomendado {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.info {
+  margin-left: 4px;
+}
+
+.info p { 
+  margin-top: 5px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}

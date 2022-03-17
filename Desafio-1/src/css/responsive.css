@@ -1,0 +1,39 @@
+@media(max-width: 375px) {
+    .header { 
+       flex-direction: column;
+       margin-top: 47px; 
+    }
+
+    .logo-container h2 { 
+        font-size: 4rem;
+    }
+
+    .logo-container { 
+        align-items: center;
+    }
+
+    nav { 
+        margin-top: 45px;
+    }
+
+    nav ul { 
+        align-items: center; 
+        flex-direction: column;
+    }
+
+    nav ul li a {
+        font-size: 4rem;
+    }
+
+    .sobre {
+        padding: 17px 38px;
+    }
+
+    .cadastre-se { 
+        padding: 15px 22px;
+    }
+
+    .cadastre-se a {
+        font-size: 1.8rem;
+    }
+}

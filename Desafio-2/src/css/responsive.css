@@ -1,0 +1,33 @@
+@media (max-width: 375px) {
+
+  .colecao ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .colecao {
+    margin-top: 0px;
+  }
+
+  .colecao li { 
+    margin-left: 20px;  
+    margin-right: 20px;
+  }
+
+  ul .Rome {
+    margin-bottom: 1px;
+    margin-top: 45px;
+  }
+ 
+  ul .Boat {
+    margin-bottom: 1px;
+  }
+
+  ul .Sand {
+    margin-bottom: 1px;
+  }
+
+  ul .Starry {
+    margin-bottom: 45px;
+  }
+} 
